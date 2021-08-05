@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    width: 1140px;
+}
+
+.text {
+    margin-top: 15px;
+}
+
+.replace_text {
+    border: 1px solid #ececec;
+    height: 150px;
+}
+
+.btn_replace {
+    width: 130px;
+    height: 38px;
+    background-color: lightslategray;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    margin-top: 10px;
+}
