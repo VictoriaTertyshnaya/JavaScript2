@@ -1,0 +1,17 @@
+{
+    "amount": 200,
+    "countGoods": 2,
+    "contents": [{
+            "id_product": 123,
+            "product_name": "Shirt",
+            "price": 150,
+            "quantity": 1
+        },
+        {
+            "id_product": 456,
+            "product_name": "Socks",
+            "price": 50,
+            "quantity": 1
+        }
+    ]
+}
