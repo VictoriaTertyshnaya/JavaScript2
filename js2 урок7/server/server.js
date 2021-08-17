@@ -91,6 +91,6 @@ app.delete('/cartData', (req, res) => {
     });
 });
 
-app.listen(2000, () => {
-    console.log(`Listening 2000 port`);
+app.listen(3000, () => {
+    console.log(`Listening 3000 port`);
 });
