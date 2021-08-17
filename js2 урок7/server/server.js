@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.static('../public'));
 
 app.get('/catalogData', (req, res) => {
-    fs.readFile('db/productsList.json', 'utf8', (err, data) => {
+    fs.readFile('db/productsList.json', 'utf-8', (err, data) => {
         if (err) {
             res.send(JSON.stringify({ result: 0, text: err }));
         } else {
@@ -17,7 +17,7 @@ app.get('/catalogData', (req, res) => {
 });
 
 app.get('/cartData', (req, res) => {
-    fs.readFile('db/getBasket.json', 'utf8', (err, data) => {
+    fs.readFile('db/getBasket.json', 'utf-8', (err, data) => {
         if (err) {
             res.send(JSON.stringify({ result: 0, text: err }));
         } else {
