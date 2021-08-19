@@ -1,6 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
+const logger = require('./logger.js');
 
 
 app.use(express.json());
@@ -39,6 +40,7 @@ app.post('/cartData', (req, res) => {
                 if (err) {
                     res.send('{"result": 0}');
                 } else {
+                    logger(name, action);
                     res.send('{"result": 1}');
                 }
             });
@@ -61,6 +63,7 @@ app.put('/cartData/:id', (req, res) => {
                 if (err) {
                     res.send('{"result": 0}');
                 } else {
+                    logger(name, action);
                     res.send('{"result": 1}');
                 }
             })
@@ -84,6 +87,7 @@ app.delete('/cartData', (req, res) => {
                 if (err) {
                     res.send('{"result": 0}');
                 } else {
+                    logger(name, action);
                     res.send('{"result": 1}');
                 }
             })
