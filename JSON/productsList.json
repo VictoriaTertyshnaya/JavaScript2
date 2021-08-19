@@ -2,24 +2,24 @@
         "id": 1,
         "title": "Shirt",
         "price": 150,
-        "picture": "img/shirt.jpg"
+        "picture": "img/T-Shirt.png"
     },
     {
         "id": 2,
         "title": "Socks",
         "price": 50,
-        "picture": "img/shirt.jpg"
+        "picture": "img/sport-socks.png"
     },
     {
         "id": 3,
         "title": "Shoes",
         "price": 250,
-        "picture": "img/shirt.jpg"
+        "picture": "img/shoes.png"
     },
     {
         "id": 4,
         "title": "Jacket",
         "price": 350,
-        "picture": "img/shirt.jpg"
+        "picture": "img/denim-jacket.png"
     }
 ]
